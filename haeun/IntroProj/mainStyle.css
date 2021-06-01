@@ -1,0 +1,110 @@
+html {
+  background-color: #faf4e9;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  background-color: #faf4e9;
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.fixed-header {
+  position: sticky;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: solid 1px lightgrey; */
+}
+
+.header-nav {
+  width: 30px;
+  height: 30px;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+.header-nav-area {
+  height: 50px;
+  display: flex;
+}
+
+footer {
+  bottom: 0;
+  text-align: center;
+  height: 16px;
+}
+
+.frame {
+  /* 위아래여백, 좌우여백 */
+  margin: 10px 10%;
+}
+
+.window {
+  height: calc(700px - 81px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#info {
+  background-color: #faf4e9;
+}
+#work {
+  background-color: rgba(240, 217, 181, 0.2);
+}
+#area3 {
+  background-color: indigo;
+}
+#area4 {
+  background-color: khaki;
+}
+
+.profile {
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+}
+
+.profile-img {
+  border-radius: 300px;
+}
+
+.mini-intro {
+  margin-top: 50px;
+}
+
+.line {
+  width: 100%;
+  border-style: solid;
+  border-color: lightgrey;
+  height: 1px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.img-info {
+  padding: 50px;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  width: 100%;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="mainStyle.css">
+</head>
+<body>
+    <div class="frame">
+        <header class="fixed-header">
+        <h1>Bae!</h1>
+        <span class="header-nav-area">
+            <span class="header-nav"><a href="#info" id="infobtn">info</a></span>
+            <span class="header-nav"><a href="#work" id="workbtn">work</a></span>
+            <span class="header-nav"><a href="#project" id="projectbtn">project</a></span>
+            <span class="header-nav"><a href="#contact" id="contactbtn">contact</a></span>
+        </span>
+    </header>
+    <main>
+        <section>
+                <div class="window" id="info" >
+                    <div class="profile">
+                        <div class="img-info"><img class="profile-img" src="assets/IMG_0018.JPG"></div>
+                        
+                        <div class="profile-info">
+                            <h3>BAE <br>HAEUN<h3>
+
+                            <hr class="solid"> 
+
+                             <h6>WEB <br>FRONTEND <br>DEVELOPER</h6>
+                             <h6 class="mini-intro">
+                                끊임없는 발전을 지향하는 배하은입니다.<br>
+                                부족함을 인정하고 나은 방향을 위해 <br>
+                                소통하는 개발자를 꿈꿉니다.
+                             </h6>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            
+            <div class="window" id="work" name="work">
+
+            </div>
+            <div class="window" id="area3" name="project">3</div>
+            <div class="window" id="area4" name="contact">4</div>
+        </section>
+    </main>
+    <footer><p>@copy right 2021 haeun bae</p></footer>
+    </div>
+    
+</body>
+
+</html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+
+	$(document).ready(function(){
+
+		$('#infobtn').click(function(){
+
+			var offset = $('#info').offset(); 
+
+	        $('html').animate({scrollTop : offset.top - 81}, 400);
+
+		});
+
+        $('#workbtn').click(function(){
+
+        var offset = $('#work').offset(); 
+
+        $('html').animate({scrollTop : offset.top - 81}, 400);
+
+        });
+
+	});
+
+</script>
+
+
